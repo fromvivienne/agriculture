@@ -1,9 +1,18 @@
 <template>
   <v-container>
     <v-row class="text-center">
-
       <v-col class="mb-4">
-		<router-link to="/member">member</router-link>
+        <router-link to="/member">member</router-link>
+      </v-col>
+    </v-row>
+    <v-row class="text-center">
+      <v-col class="mb-4">
+        <router-link to="/campfire">campfire</router-link>
+      </v-col>
+    </v-row>
+    <v-row class="text-center">
+      <v-col class="mb-4">
+        <router-link to="/calendar">calendar</router-link>
       </v-col>
     </v-row>
   </v-container>

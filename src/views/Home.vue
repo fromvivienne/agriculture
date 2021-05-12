@@ -1,16 +1,16 @@
 <template>
-  <home-link />
+  <main-page />
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import HomeLink from "../components/HomeLink.vue";
+import MainPage from "../components/MainPage.vue";
 
 export default Vue.extend({
   name: "Home",
 
   components: {
-    HomeLink,
+    MainPage,
   },
 });
 </script>
